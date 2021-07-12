@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<user>
+  <key>1</key>
+  <name>Alice</name>
+  <background>light</background>
+</user>
+<user>
+  <key>2</key>
+  <name>Bob</name>
+  <background>dark</background>
+</user>
+<user>
+  <key>3</key>
+  <name>Carol</name>
+  <background>light</background>
+</user></root>

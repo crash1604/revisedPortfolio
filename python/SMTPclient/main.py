@@ -1,6 +1,6 @@
 import smtplib
 
-password = "M!ll!0n@!r3"
+password = ""
 
 sent_from = 'chanakya1604@gmail.com'
 to = 'chanakya1604@gmail.com'

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple AJAX Demo</title>
+<style>
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+body{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('./foo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+  text-align: center;
+  color: rgb(1, 10, 56);
+  background-color: azure;
+  height: 250px;
+  width: 450px;
+  opacity: 0.75;
+  margin:auto;
+  position: center;
+  size: cover;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin-top: 75px;
+}
+#demo {
+   background-color:black;
+   color:white;
+   border: 2px solid #c0c0c0;
+   width:30%;
+   margin:auto;
+   margin-top:20px;
+   text-align:center;
+   min-height:65px;
+   padding:5px;
+}
+Button{
+  border: black;
+  background-color: rgb(1, 10, 56);
+  width: 150px;
+  height: 50px;
+  color:white;
+}
+
+</style>
+<script>
+function updateTime(){
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date+' '+time;
+  return dateTime;
+}
+function clickHandler() {
+  var xhttp = new XMLHttpRequest();
+  // AJAx activation functions
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("oof").innerHTML =
+      this.responseText;
+      console.log(this.T)
+    }
+  };
+  xhttp.open("GET", "http://localhost:8001/", true);
+  xhttp.send();
+  document.getElementById("timePlaceHolder1").innerHTML= updateTime();
+}
+function pollHandler(){
+  var xhttp = new XMLHttpRequest();
+  // AJAx activation functions
+  xhttp.onreadystatechange = function() 
+  {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("foo").innerHTML =
+      this.responseText;
+      console.log(this.T)
+    }
+  };
+  xhttp.open("GET", "http://localhost:8002/", true);
+    xhttp.send();
+    document.getElementById("timePlaceHolder2").innerHTML=updateTime();
+
+  }
+  setInterval(pollHandler,4000);
+</script>
+
+</head>
+<body>
+<h1>CSCI 311 Lab-3</h1>
+<h1>A platform to check beliefs</h1>
+<div>
+  <h3>no. of people who think I will fail</h3>
+  <p id="oof"></p>
+  <Button onclick='clickHandler()'> click this button</Button>
+  <p>Last updated on :-</p>
+  <p id="timePlaceHolder1"></p>
+  <h6>Powered by user action</h6>
+</div>
+<div>
+  <h3>no. of people whose opinions doesn't matter</h3>
+  <p id="foo"></p>
+  <p>Last updated on :-</p>
+  <p id="timePlaceHolder2"></p>
+  <h6>Powered by server</h6>
+</div>
+
+</body>
+</html>
