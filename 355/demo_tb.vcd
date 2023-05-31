@@ -1,0 +1,33 @@
+$date
+	Wed Sep 15 14:36:37 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module demo_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " X $end
+$scope module ut $end
+$var wire 1 " X $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1"
+1!
+$end
+#30
+0!
+0"
+#60
+1!
+1"
+#90
+0!
+0"
+#120

@@ -1,0 +1,15 @@
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/bin/Debug/net6.0/FInalExam
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/bin/Debug/net6.0/FInalExam.deps.json
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/bin/Debug/net6.0/FInalExam.runtimeconfig.json
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/bin/Debug/net6.0/FInalExam.dll
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/bin/Debug/net6.0/FInalExam.pdb
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.csproj.AssemblyReference.cache
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.AssemblyInfoInputs.cache
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.AssemblyInfo.cs
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.csproj.CoreCompileInputs.cache
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.dll
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/refint/FInalExam.dll
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.pdb
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/FInalExam.genruntimeconfig.cache
+/Users/crash/Programs/Csharp/FInalExam/FInalExam/obj/Debug/net6.0/ref/FInalExam.dll
