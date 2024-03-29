@@ -99,7 +99,7 @@ export default function About() {
                     </p>
             </div>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         {values.map((value) => (
                             <div className="flex flex-col" key={value.name}>
                                 <dt className="font-semibold text-gray-900">{value.name}</dt>
