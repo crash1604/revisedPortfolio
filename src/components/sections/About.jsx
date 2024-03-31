@@ -1,9 +1,4 @@
-const stats = [
-    { label: 'Transactions every 24 hours', value: '44 million' },
-    { label: 'Assets under holding', value: '$119 trillion' },
-    { label: 'New users annually', value: '46,000' },
-  ]
-  const values = [
+const values = [
     {
       name: 'Creating Value for the World',
       description:
@@ -108,7 +103,6 @@ export default function About() {
                         ))}
                     </dl>
         </div>
-
           </main>
           </div>
     )

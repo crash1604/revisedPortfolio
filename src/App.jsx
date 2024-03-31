@@ -1,5 +1,5 @@
 import Topbar from './components/Topbar';
-import NavBar from './components/Navbar';
+import Projects from './components/sections/Projects';
 import About from './components/sections/About'
 import './App.css';
 
@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <Topbar />
-      <div className="wrapper">
+      <div className="ContentContainer">
         <About />
+        <Projects />
       </div>
     </div>
   );
