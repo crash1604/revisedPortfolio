@@ -1,4 +1,5 @@
 import React from "react";
+import InfoCard from "./InfoCards";
 
 const navigation = [
     { name: 'Spotify Backend', href: '#', current: true, description :"desc 1", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:'links' },
@@ -6,6 +7,16 @@ const navigation = [
     { name: 'TweetMe', href: '#', current: false, description :"desc 1", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:'links'  },
     { name: 'Portfolio', href: '#', current: false, description :"desc 1", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:'links'  },
   ]
+
+let current={
+    name: 'Spotify Backend', 
+    href: '#', current: true, 
+    description :"desc 1", 
+    techStack: ['list' ,'of','stacks'], 
+    githubLink:'github.io', 
+    demoLink:'lol', 
+    media:['https://via.placeholder.com/300',"https://via.placeholder.com/300", "https://via.placeholder.com/300" ]
+}
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -37,35 +48,10 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
+              <div>
+                <InfoCard state={current}/>
+                </div>
             </div>
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg p-6">
-      <div className="grid grid-cols-3 gap-6">
-        <div className="col-span-3 md:col-span-1">
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">Description</h2>
-          <p className="text-gray-600">description</p>
-        </div>
-        <div className="col-span-3 md:col-span-2">
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">Tech Stack</h2>
-          <p className="text-gray-600">techStack</p>
-        </div>
-        <div className="col-span-3">
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">GitHub and Demo</h2>
-          <div className="flex items-center space-x-4">
-            <a href="" className="text-blue-500 hover:underline">GitHub</a>
-            <a href="" className="text-blue-500 hover:underline">Demo</a>
-          </div>
-        </div>
-        <div className="col-span-3">
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">Media</h2>
-          <div className="grid grid-cols-2 gap-4">
-            {/* {media.map((item, index) => (
-              <img key={index} src={item} alt={`Media ${index + 1}`} className="w-full h-auto rounded-lg" />
-            ))} */}
-            <img key="1" src="https://res.cloudinary.com/practicaldev/image/fetch/s--_HBZhuhF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/nweeqf97l2md3tlqkjyt.jpg" alt='test' className="w-full h-auto rounded-lg" />
-          </div>
-        </div>
-      </div>
-    </div>
         </div>
     </>
 }
