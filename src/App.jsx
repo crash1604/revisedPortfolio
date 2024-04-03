@@ -1,6 +1,7 @@
 import Topbar from './components/Topbar';
 import Projects from './components/sections/Projects';
 import About from './components/sections/About'
+import Professional from './components/Professional'
 import './App.css';
 
 
@@ -11,6 +12,7 @@ function App() {
       <div className="ContentContainer">
         <About />
         <Projects />
+        <Professional />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ let current={
     techStack: ['list' ,'of','stacks'], 
     githubLink:'github.io', 
     demoLink:'lol', 
-    media:['https://via.placeholder.com/300',"https://via.placeholder.com/300", "https://via.placeholder.com/300" ]
+    media:['https://via.placeholder.com/720',"https://via.placeholder.com/300", "https://via.placeholder.com/300" ]
 }
 
   function classNames(...classes) {
@@ -26,7 +26,7 @@ export default function Projects() {
     return <>
         <div className="mx-auto max-w-7xl px-6 sm:mt-4 lg:px-8 xl:mt-1">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects</h2>
-            <div className="">
+            <div className="mt-8">
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                 </div>
