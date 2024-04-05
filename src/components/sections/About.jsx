@@ -89,8 +89,7 @@ export default function About() {
             <div className="flex flex-col">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Values</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                        accusamus quisquam.
+                       
                     </p>
             </div>
         </div>
