@@ -21,7 +21,7 @@ export default function Projects() {
     }
   
     return (
-      <>
+      <div id="Projects">
         <div className="mx-auto max-w-7xl px-6 sm:mt-4 lg:px-8 xl:mt-1">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects</h2>
           <div className="mt-8">
@@ -52,7 +52,7 @@ export default function Projects() {
             <InfoCard state={currentPage}/>
           </div>
         </div>
-      </>
+      </div>
     );
   }
   

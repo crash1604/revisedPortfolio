@@ -1,55 +1,55 @@
-import { CheckIcon, HandThumbUpIcon, UserIcon } from '@heroicons/react/20/solid'
+import { AcademicCapIcon, BriefcaseIcon, HandThumbUpIcon, UserIcon } from '@heroicons/react/20/solid'
 
 const timeline = [
   {
     id: 1,
     content: 'Started Side Business',
-    target: 'FreelanceDeveloper',
+    target: 'Freelance Software Developer',
     href: '#',
-    date: 'Jan 3rd',
+    date: 'Jan 03',
     datetime: '2024-01-03',
     icon: UserIcon,
     iconBackground: 'bg-gray-400',
   },
   {
     id: 2,
-    content: 'Advanced to phone screening by',
-    target: 'Bethany Blake',
+    content: 'Joined Workforce',
+    target: 'Infosys',
     href: '#',
-    date: 'Sep 22',
-    datetime: '2020-09-22',
-    icon: HandThumbUpIcon,
-    iconBackground: 'bg-blue-500',
+    date: 'Jun 29',
+    datetime: '2022-06-29',
+    icon: BriefcaseIcon,
+    iconBackground: 'bg-green-500',
   },
   {
     id: 3,
-    content: 'Completed phone screening with',
-    target: 'Martha Gardner',
+    content: 'Completed B.Sc Computer Science',
+    target: 'Vancouver Island University',
     href: '#',
     date: 'Sep 28',
-    datetime: '2020-09-28',
-    icon: CheckIcon,
+    datetime: '2022-05-15',
+    icon: AcademicCapIcon,
     iconBackground: 'bg-green-500',
   },
   {
     id: 4,
-    content: 'Advanced to interview by',
-    target: 'Bethany Blake',
+    content: 'Started 8 month Internship',
+    target: 'Affichi Co',
     href: '#',
-    date: 'Sep 30',
-    datetime: '2020-09-30',
+    date: 'Jan 04',
+    datetime: '2021-01-04',
     icon: HandThumbUpIcon,
     iconBackground: 'bg-blue-500',
   },
   {
     id: 5,
-    content: 'Completed interview with',
-    target: 'Katherine Snyder',
+    content: 'Started Studying B.Sc. Computer science  ',
+    target: 'Vancouver Island Uiversity',
     href: '#',
-    date: 'Oct 4',
-    datetime: '2020-10-04',
-    icon: CheckIcon,
-    iconBackground: 'bg-green-500',
+    date: 'Sep 3',
+    datetime: '2019-09-03',
+    icon: AcademicCapIcon,
+    iconBackground: 'bg-blue-500',
   },
 ]
 
@@ -57,12 +57,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Professional() {
   return (
-    <div className="m-16 p-16"> 
+    <div className="m-16 p-16" id="Professional"> 
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Professional</h2>
-        <div className="flow-root mt-4">
-        <ul role="list" className="-mb-8">
+        <div className="flow-root mt-4 mx-4 px-4 bg-indigo-200 rounded-lg">
+        <ul role="list" className="m-4 p-4 -mb-4">
             {timeline.map((event, eventIdx) => (
             <li key={event.id}>
                 <div className="relative pb-8">

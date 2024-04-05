@@ -2,7 +2,7 @@ import Quotes from "./Quotes"
 
 export default function About() {
     return (
-        <>
+        <div id="About">
       <section className="overflow-hidden mt-52 pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -632,6 +632,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </>
+    </div>
     )
   }

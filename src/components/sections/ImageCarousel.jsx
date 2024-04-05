@@ -1,5 +1,3 @@
-// ImageCarousel.js
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -14,8 +12,6 @@ const ImageCarousel = ({ images }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
   };
 
   return (
@@ -28,18 +24,5 @@ const ImageCarousel = ({ images }) => {
     </Slider>
   );
 };
-
-const CustomPrevArrow = (props) => (
-  <div {...props}>
-    <span className="material-icons" style={{ fontSize: 24, color: '#888' }}></span>
-  </div>
-);
-
-const CustomNextArrow = (props) => (
-  <div {...props}>
-    <span className="material-icons" style={{ fontSize: 24, color: '#888' }}></span>
-  </div>
-);
-
 
 export default ImageCarousel;
