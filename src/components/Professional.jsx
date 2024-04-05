@@ -3,11 +3,11 @@ import { CheckIcon, HandThumbUpIcon, UserIcon } from '@heroicons/react/20/solid'
 const timeline = [
   {
     id: 1,
-    content: 'Applied to',
-    target: 'Front End Developer',
+    content: 'Started Side Business',
+    target: 'FreelanceDeveloper',
     href: '#',
-    date: 'Sep 20',
-    datetime: '2020-09-20',
+    date: 'Jan 3rd',
+    datetime: '2024-01-03',
     icon: UserIcon,
     iconBackground: 'bg-gray-400',
   },
@@ -59,9 +59,9 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <> 
+    <div className="m-16 p-16"> 
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Professional</h2>
-        <div className="flow-root">
+        <div className="flow-root mt-4">
         <ul role="list" className="-mb-8">
             {timeline.map((event, eventIdx) => (
             <li key={event.id}>
@@ -99,6 +99,6 @@ export default function Example() {
             ))}
         </ul>
         </div>
-    </>
+    </div>
   )
 }
