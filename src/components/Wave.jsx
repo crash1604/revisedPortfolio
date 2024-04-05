@@ -28,7 +28,7 @@ const Wave = () => {
         const y = canvas.height / 2 + amplitude * Math.sin(x * frequency + phase);
         ctx.lineTo(x, y);
       }
-      ctx.strokeStyle = '#fff'; 
+      ctx.strokeStyle = '#a78bfa'; 
       ctx.lineWidth = strokeWidth;
       ctx.stroke();
 
@@ -39,7 +39,7 @@ const Wave = () => {
         const y = canvas.height / 2 + amplitude * Math.cos(x * frequency + phase);
         ctx.lineTo(x, y);
       }
-      ctx.strokeStyle = '#fff'; // Adjust color as needed
+      ctx.strokeStyle = '#a78bfa'; // Adjust color as needed
       ctx.lineWidth = strokeWidth;
       ctx.stroke();
 

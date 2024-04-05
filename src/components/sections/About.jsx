@@ -1,5 +1,4 @@
-
-  
+import Quotes from "./Quotes"
 
 export default function About() {
     return (
@@ -608,7 +607,7 @@ export default function About() {
             </div>
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="mt-10 lg:mt-0">
+              <div className="mt-10 lg:mt-0 bg-indigo-200 rounded-lg p-5">
                 <span className="block mb-4 p-4 text-lg font-semibold text-primary">
                 Hi! My name is
                 </span>
@@ -621,10 +620,13 @@ export default function About() {
                 </p>
                 <a
                   href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-indigo-900 border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
                 >
                   Get Started
                 </a>
+              </div>
+              <div className="mt-52">
+                <Quotes />
               </div>
             </div>
           </div>
