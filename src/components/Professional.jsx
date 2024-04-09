@@ -59,9 +59,9 @@ function classNames(...classes) {
 
 export default function Professional() {
   return (
-    <div className="m-16 p-16" id="Professional"> 
+    <div className="mx-auto p-4 max-w-7xl px-6 sm:mt-4 lg:px-8 xl:mt-1" id="Professional"> 
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Professional</h2>
-        <div className="flow-root mt-4 mx-4 px-4 bg-indigo-200 rounded-lg">
+        <div className="flow-root mt-4 mx-2 sm:mx-0 px-2 sm:px-1 bg-indigo-200 rounded-lg overflow-hidden shadow-lg">
         <ul role="list" className="m-4 p-4 -mb-4">
             {timeline.map((event, eventIdx) => (
             <li key={event.id}>
