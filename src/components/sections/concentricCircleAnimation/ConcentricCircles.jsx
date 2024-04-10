@@ -10,8 +10,8 @@ const ConcentricCircles = () => {
   }));
 
   return (
-    <div className="flex items-center justify-right h-screen">
-      <svg viewBox="0 0 500 500" className="w-full h-full">
+    <div className="flex items-center justify-right">
+      <svg viewBox="0 0 500 500" className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
         <defs>
           <clipPath id="clip">
             <path d="M 0,250 a 250,250 0 0,1 250,-250 h -70 a 180,180 0 0,0 0,180 z" />
