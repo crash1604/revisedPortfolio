@@ -12,7 +12,7 @@ const AnimatedCircles = () => {
           viewBox="0 0 300 300"
           className={`circle circle-${index + 1}`}
         >
-          <circle cx="150" cy="150" r={`${15 + index * 15}`} stroke="indigo" strokeWidth="2" fill="none" />
+          <circle cx="150" cy="150" r={`${15 + index * 15}`} stroke="purple" strokeWidth="2" fill="none" />
         </svg>
       ))}
     </div>
