@@ -15,7 +15,7 @@ const projectDetails = {
 
 const Contact = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div id="Contact" className="container mx-auto p-4">
       <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl my-4 sm:my-4 xl:my-1">Contact Me</h2>
       
       {/* Position the animation and icons container below the h2 */}
