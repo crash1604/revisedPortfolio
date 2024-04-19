@@ -25,7 +25,7 @@ const Contact = () => {
         <ConcentricCircles  />
         </div>
 
-        <div className="absolute inset-0 bg-opacity-50 flex items-center justify-evenly bg-indigo-200 rounded-lg overflow-hidden shadow-lg p-6 mt-4 sm:mt-4 xl:mt-1 z-4">
+        <div className="absolute inset-0 bg-opacity-75 flex items-center justify-evenly bg-indigo-200 rounded-lg overflow-hidden shadow-lg p-6 mt-4 sm:mt-4 xl:mt-1 z-4">
           
           <a href="https://www.linkedin.com/in/chanakyadeveloper/" className="text-black hover:text-blue-700 bg-opacity-100" >
                  <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" className="w-16 h-16 md:w-48 md:h-48" fill="currentColor">

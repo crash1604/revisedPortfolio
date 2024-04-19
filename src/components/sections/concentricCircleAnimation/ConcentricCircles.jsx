@@ -11,7 +11,7 @@ const ConcentricCircles = () => {
 
   return (
     <div className="flex items-center justify-right">
-      <svg viewBox="0 0 500 500" className="w-full h-auto ">
+      <svg viewBox="0 0 500 500" className="w-7/12 h-3/6 justify-items-center items-center">
         <defs>
           <clipPath id="clip">
             <path d="M 0,250 a 250,250 0 0,1 250,-250 h -70 a 180,180 0 0,0 0,180 z" />
@@ -23,7 +23,7 @@ const ConcentricCircles = () => {
             cx="250"
             cy="250"
             r={`${circle.size}`}
-            stroke="#6b21a8"
+            stroke="#1e1b4b"
             strokeWidth="2"
             fill="none"
             clipPath="url(#clip)"
