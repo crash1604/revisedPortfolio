@@ -1,10 +1,10 @@
-import Topbar from './components/Topbar';
-import Projects from './components/sections/Projects';
-import About from './components/sections/About'
-import Professional from './components/Professional'
+import Topbar from './components/header/Topbar';
+import Projects from './components/sections/projects/Projects';
+import About from './components/sections/about/About'
+import Professional from './components/sections/professional/Professional'
 import './App.css';
-import Contact from './components/sections/Contact';
-import Footer from './components/Footer';
+import Contact from './components/sections/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
