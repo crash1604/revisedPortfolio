@@ -2,10 +2,56 @@ import React, { useState } from "react";
 import InfoCard from "./InfoCards";
 
 const navigation = [
-    { index:1, name: 'Spotify Backend', href: '#', description :"desc 1", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:['https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720'] },
-    { index:2, name: 'IBM Capstone', href: '#', description :"desc 2", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:['https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720'] },
-    { index:3, name: 'TweetMe', href: '#', description :"desc 3", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:['https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720']  },
-    { index:4, name: 'Portfolio', href: '#', description :"desc 4", techStack: ['list' ,'of','stacks'], githubLink:'github.io', demoLink:'lol', media:['https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720','https://via.placeholder.com/720']  },
+    { index:1,
+      name: 'Spotify Backend', 
+      href: '#', 
+      description :"SpotifyLookalike, a small music streaming app's backend built with Django and Django Rest Framework. This project aims to provide basic functionalities similar to Spotify, including managing albums, artists, user authentication, music tracks, and playlists.", 
+      techStack: ['Python' ,'Django','Django Rest Framework'], 
+      githubLink:'https://github.com/crash1604/Spotifylookalike', 
+      demoLink:'lol', 
+      media:[
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.22.09%20AM.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.23.01%20AM.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.24.50%20AM.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.26.01%20AM.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.26.38%20AM.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.26.49%20AM.png?raw=true'
+      ] },
+    { index:2, 
+      name: 'IBM Capstone', 
+      href: '#', 
+      description :"Car Dealership Review Platform project represents the culmination of my journey through the IBM Full Stack Cloud Developer Professional Certificate on Coursera. Within this project, you'll find a cloud-hosted web application built using Django and deployed on the IBM Cloud.", 
+      techStack: ['Python' ,'Node','Django', 'React','IBM Cloudant', 'IBM watson', 'NoSQL', 'REST Framework', 'HTML', 'CSS', 'JavaScript'], 
+      githubLink:'https://github.com/crash1604/agfzb-CloudAppDevelopment_Capstone', 
+      demoLink:'lol', 
+      media:[
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealership_details.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealership_review_submission.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships_filter.png?raw=true'
+      ] },
+    { index:3, 
+      name: 'TweetMe', 
+      href: '#', 
+      description :"Developed and optimized a full-stack application mirroring X-like (Former Twitter)    functionality, integrating React for the frontend and Django Rest Framework for the    backend, with comprehensive CRUD features and rigorous testing to ensure    seamless user experience and robust performance.", 
+      techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS'], 
+      githubLink:'https://github.com/crash1604/TweetMe', 
+      demoLink:'lol', 
+      media:[
+        'https://via.placeholder.com/720',
+      ]  },
+    { index:4, 
+      name: 'Portfolio', 
+      href: '#', 
+      description :"My most Recent addition created with JavaScript, React, and Tailwind CSS to demonstrate front end development capabilities in the realm of software development", 
+      techStack: ['React', 'Tailwind CSS', 'JavaScript','HTML'], 
+      githubLink:'https://github.com/crash1604/revisedPortfolio', 
+      demoLink:'lol', 
+      media:[
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/portfolio/home.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/portfolio/prof.png?raw=true',
+        'https://github.com/crash1604/MediaFilesPortfolio/blob/main/portfolio/contact.png?raw=true'
+      ]  },
   ]
 
 export default function Projects() {
