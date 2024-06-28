@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const initialNavigation = [
-  { name: 'About', href: 'About', current: true },
+  { name: 'About', href: 'About', current: false },
   { name: 'Projects', href: 'Projects', current: false },
   { name: 'Professional', href: 'Professional', current: false },
   { name: 'Contact Me', href: 'Contact', current: false },
@@ -20,7 +20,7 @@ const Navigation = () => {
   const handleNavigationClick = (name) => {
     const updatedNavigation = navigation.map((item) => ({
       ...item,
-      current: item.name === name,
+      // current: item.name === name,
     }));
     setNavigation(updatedNavigation);
   };
@@ -49,7 +49,8 @@ const Navigation = () => {
                         offset={-225}
                         duration={500}
                         key={item.name}
-                        className={classNames(
+                        className=
+                        {classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'block rounded-md px-3 py-2 text-base font-medium'
                         )}
@@ -68,7 +69,6 @@ const Navigation = () => {
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Link
-                  activeClass="bg-gray-900 text-white"
                   to={item.href}
                   spy={true}
                   smooth={true}

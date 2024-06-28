@@ -30,16 +30,19 @@ const navigation = [
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships.png?raw=true',
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships_filter.png?raw=true'
       ] },
-    { index:3, 
-      name: 'TweetMe', 
-      href: '#', 
-      description :"Developed and optimized a full-stack application mirroring X-like (Former Twitter)    functionality, integrating React for the frontend and Django Rest Framework for the    backend, with comprehensive CRUD features and rigorous testing to ensure    seamless user experience and robust performance.", 
-      techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS'], 
-      githubLink:'https://github.com/crash1604/TweetMe', 
-      demoLink:'lol', 
+    { 
+      index:3, 
+      name: 'Currency Exchange Tracker', 
+      href: 'https://henon-chanakya.netlify.app/', 
+      description :"This Dashboard application utilizes the Frankfurter API to retrieve historical currency exchange rate data for up to 2 years for CAD, USD, EUR, and reverse rates. This data is rendered in both a chart using Chart.js and a table using ag-Grid with features such as filtering, and the ability to persist filter settings with localstorage.", 
+      techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS', 'Frankfurter API','ChartJs', 'AG grid'], 
+      githubLink:'https://github.com/crash1604/Henon', 
+      demoLink:'https://henon-chanakya.netlify.app/', 
       media:[
-        'https://via.placeholder.com/720',
-      ]  },
+        'https://github.com/crash1604/Henon/blob/main/media/SS1.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS2.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS3.png?raw=true',
+      ]  }, 
     { index:4, 
       name: 'Portfolio', 
       href: '#', 
@@ -52,6 +55,17 @@ const navigation = [
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/portfolio/prof.png?raw=true',
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/portfolio/contact.png?raw=true'
       ]  },
+      { index:5, 
+        name: 'TweetMe', 
+        href: '#', 
+        description :"Developed and optimized a full-stack application mirroring X-like (Former Twitter)    functionality, integrating React for the frontend and Django Rest Framework for the    backend, with comprehensive CRUD features and rigorous testing to ensure    seamless user experience and robust performance.", 
+        techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS'], 
+        githubLink:'https://github.com/crash1604/TweetMe', 
+        demoLink:'lol', 
+        media:[
+          'https://via.placeholder.com/300',
+          'https://via.placeholder.com/300',
+        ]  },
   ]
 
 export default function Projects() {
