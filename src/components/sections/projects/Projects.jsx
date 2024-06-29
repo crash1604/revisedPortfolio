@@ -33,11 +33,11 @@ const navigation = [
     { 
       index:3, 
       name: 'Currency Exchange Tracker', 
-      href: 'https://henon-chanakya.netlify.app/', 
+      href: 'https://currency-chanakya.netlify.app/', 
       description :"This Dashboard application utilizes the Frankfurter API to retrieve historical currency exchange rate data for up to 2 years for CAD, USD, EUR, and reverse rates. This data is rendered in both a chart using Chart.js and a table using ag-Grid with features such as filtering, and the ability to persist filter settings with localstorage.", 
       techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS', 'Frankfurter API','ChartJs', 'AG grid'], 
       githubLink:'https://github.com/crash1604/Henon', 
-      demoLink:'https://henon-chanakya.netlify.app/', 
+      demoLink:'https://currency-chanakya.netlify.app/', 
       media:[
         'https://github.com/crash1604/Henon/blob/main/media/SS1.png?raw=true',
         'https://github.com/crash1604/Henon/blob/main/media/SS2.png?raw=true',
