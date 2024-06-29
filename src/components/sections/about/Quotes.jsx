@@ -25,7 +25,7 @@ const Quotes = () => {
     <div className="container flex mx-auto my-4 bg-white rounded-lg shadow">
       <img
         className="w-16 h-16 rounded-full m-4"
-        src="https://media.licdn.com/dms/image/D5603AQHjXiYZZo-T7A/profile-displayphoto-shrink_800_800/0/1704395543457?e=2147483647&v=beta&t=Gij4bqoenq9DikAnSIDH2ZcVuiaegxnoqQUDUUerR6Q"
+        src={process.env.PUBLIC_URL + '/linkedin_profile.jpeg'}
         alt="Profile"
       />
       <div className="flex flex-col justify-between p-4 leading-normal">
