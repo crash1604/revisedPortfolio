@@ -2,7 +2,24 @@ import React, { useState } from "react";
 import InfoCard from "./InfoCards";
 
 const navigation = [
-    { index:1,
+    { 
+      index:1, 
+      name: 'Currency Exchange Tracker', 
+      href: 'https://currency-chanakya.netlify.app/', 
+      description :"A Dashboard application that utilizes the OpenAI ChatGPT API, Frankfurter API, News API to retrieve Data from flagship ChatGPT AI's API ,historical currency exchange rate, News from across the world. This data is rendered in a seamless manner across host of different frameworks like Chart.js, and ag-Grid. Open AI's LLM ChatGPT API is integrated into this application making it seamless helping traders reducing the need to witch application making it a one stop for all forex trader information", 
+      techStack: ['React', 'OpenAI', 'ChatGPT', 'LLM', 'News API', 'Python', 'Django', 'Django Rest Framework','JavaScript','HTML','CSS', 'Frankfurter API','ChartJs', 'AG grid'], 
+      githubLink:'https://github.com/crash1604/Henon', 
+      demoLink:'https://currency-chanakya.netlify.app/', 
+      media:[
+        'https://github.com/crash1604/Henon/blob/main/media/SS1.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS2.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS3.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS4.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS5.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS6.png?raw=true',
+        'https://github.com/crash1604/Henon/blob/main/media/SS7.png?raw=true',
+      ]  }, 
+    { index:2,
       name: 'Spotify Backend', 
       href: '#', 
       description :"SpotifyLookalike, a small music streaming app's backend built with Django and Django Rest Framework. This project aims to provide basic functionalities similar to Spotify, including managing albums, artists, user authentication, music tracks, and playlists.", 
@@ -17,7 +34,7 @@ const navigation = [
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.26.38%20AM.png?raw=true',
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/SpotifyLookAlike/Screenshot%202024-04-20%20at%2012.26.49%20AM.png?raw=true'
       ] },
-    { index:2, 
+    { index:3, 
       name: 'IBM Capstone', 
       href: '#', 
       description :"Car Dealership Review Platform project represents the culmination of my journey through the IBM Full Stack Cloud Developer Professional Certificate on Coursera. Within this project, you'll find a cloud-hosted web application built using Django and deployed on the IBM Cloud.", 
@@ -30,19 +47,6 @@ const navigation = [
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships.png?raw=true',
         'https://github.com/crash1604/MediaFilesPortfolio/blob/main/IBMCapstone/dealerships_filter.png?raw=true'
       ] },
-    { 
-      index:3, 
-      name: 'Currency Exchange Tracker', 
-      href: 'https://currency-chanakya.netlify.app/', 
-      description :"This Dashboard application utilizes the Frankfurter API to retrieve historical currency exchange rate data for up to 2 years for CAD, USD, EUR, and reverse rates. This data is rendered in both a chart using Chart.js and a table using ag-Grid with features such as filtering, and the ability to persist filter settings with localstorage.", 
-      techStack: ['Python', 'Django', 'Django Rest Framework', 'React' ,'JavaScript','HTML','CSS', 'Frankfurter API','ChartJs', 'AG grid'], 
-      githubLink:'https://github.com/crash1604/Henon', 
-      demoLink:'https://currency-chanakya.netlify.app/', 
-      media:[
-        'https://github.com/crash1604/Henon/blob/main/media/SS1.png?raw=true',
-        'https://github.com/crash1604/Henon/blob/main/media/SS2.png?raw=true',
-        'https://github.com/crash1604/Henon/blob/main/media/SS3.png?raw=true',
-      ]  }, 
     { index:4, 
       name: 'Portfolio', 
       href: '#', 
